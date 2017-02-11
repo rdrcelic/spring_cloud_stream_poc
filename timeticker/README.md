@@ -1,9 +1,9 @@
-timeticker - message publisher
+# timeticker - message publisher
 
+This is spring boot application that demonstrates implementation of spring-cloud-stream *source*.
 This is simple message publisher that may fire messages at fixed rate (like every second),
 or via http get on http://localhost:8082/fireTimeTick. Message payload is java.util.Date
 timestamp serialized to string.
-This is spring boot application.
 
 # Configuration
 
