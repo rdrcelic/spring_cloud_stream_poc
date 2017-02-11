@@ -1,0 +1,31 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    com.example: DEBUG
+
+spring:
+  rabbitmq:
+    host: 192.168.10.12
+    username: vagrant
+    password: vagrant
+    virtual-host: DEV
+  cloud:
+    stream:
+      bindings:
+        time_tick:
+          destination: timeTick
+          contentType: application/json
+        time_tick_second:
+          destination: timeTick
+          contentType: application/json
+        time_tick_processor_input:
+          destination: timeTick
+          contentType: application/json
+        time_tick_processor_output:
+          destination: timeTickTransformed
+          contentType: application/json
+        time_tick_transformed:
+          destination: timeTickTransformed
+          contentType: application/json
