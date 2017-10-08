@@ -9,6 +9,8 @@ import org.springframework.cloud.stream.annotation.StreamListener;
 /**
  * Concrete implementation of time_tick event handler
  *
+ * TODO: how to handle multitenancy
+ *
  * @author rdrcelic
  * @since 09/02/17
  */

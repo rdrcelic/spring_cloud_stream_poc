@@ -8,6 +8,8 @@ import org.springframework.messaging.MessageChannel;
  *
  * // TODO: move to commons
  *
+ * * TODO: how to handle multitenancy
+ *
  * @author rdrcelic
  * @since 09/02/17
  */
